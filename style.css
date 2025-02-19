@@ -1,0 +1,84 @@
+body{
+	margin:0;
+	padding: 0;
+}
+
+.nav1{
+	padding: 15px 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 5px 5px 10px gray;;
+}
+
+.ul1{
+	display: flex;
+}
+
+.ul1 li{
+	list-style: none;
+}
+
+.ul1 li a{
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 10px;
+	color: #324865;
+}
+
+.d1{
+	padding-top: 40px;
+	text-align: center;
+	text-transform: capitalize;
+}
+.d1 h1{
+	color: #324865;
+	font-size: 35px;
+}
+.sp1{
+	color: #0C66FF;
+}
+p{
+	color: #646C80;
+}
+
+.d2{
+	text-align: center;
+	padding-top: 40px;
+	padding-left: 120px;
+}
+.d2 img{
+	
+}
+.d3{
+	display: flex;
+	margin: 70px 30px;
+
+}
+
+
+.d31{
+	width: 100%;
+	margin-right: 40px;
+
+}
+
+.d31a h1{
+	float: right;
+	color: red;
+	
+}
+.d31b p{
+	float: right;
+	text-align: right;
+	width: 100%;/**width 100% solved the floating space issue. i sufferred here. need to clear this concept**/
+	margin: 0;
+	padding: 0;
+}
+
+
+.d32{
+	width: 100%;
+	margin-right: 40px;
+	color: #324865;
+}
